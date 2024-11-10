@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divy's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9eedc4a0cb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/log.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web-Developer</p>
+                <h1>Hi, I'm <span>Divy</span> <br> Singhal From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- /------------------about---------------/ -->
+    <div id="about">
+        <div class=container>
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="images/coder.jpg">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>As a recent graduate with a Bachelor of Science in Mathematics in 2022 and recenty graduated in
+                        Master of Computer Applications in 2024, I possess strong programming skills in C, Java, as well
+                        as experience with database management and web development technologies. I have a passion for
+                        learning and exploring new things, and I am excited to apply my skills to new challenges.</p>
+                    <div class="tabtiles">
+                        <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks " onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li><span>Web-Development Technologies</span><br> HTML, CSS And JavaScript</li>
+                            <li><span>Programminng Languages</span><br>C, Java </li>
+                            <li><span>Database Management</span><br>DBMS , SQL</li>
+
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <!-- <li>Fresher</li> -->
+                            <li>Complete a Virtual Internship in Web Development with ICT Academy and Open Weaver</li>
+
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>2019-2022</span><br>B.Sc in Maths from Rudra Institute of Technology
+                                <br>affiliated by CCS University</li>
+                            <li><span>2022-2024</span><br>MCA from Meerut Institute of Engineering and
+                                Technology <br>affiliated by Aktu University</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, magnam.</p> -->
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, magnam.</p> -->
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -----------------portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/1.jpg">
+                    <div class="layer">
+                        <h3>My Portfolio </h3>
+                        <p>The is my Personal portfolio, that tells about me and my educaation and my work.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/2.jpg">
+                    <div class="layer">
+                        <h3>YouTube Clone</h3>
+                        <p>This website is a copy of Youtube that provides a user to see videos possted by people from
+                            round the world. </p>
+                        <a href="https://111divy.github.io/Youtube-clone/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/3.jpg">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>This Website helps users to buy from our online store </p>
+                        <a href="https://111divy.github.io/e-commerce/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ------------contact--------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>divysinghal111@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-9760606362</p>
+                    <div class="socialicons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="www.linkedin.com/in/divy-singhal-3b422524   "><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Divy-Singhal.pdf" download class="btn btn2"> Download CV </a>
+                </div>
+                <div class="contactright">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder=" Your Message"></textarea>
+                        <button type=" submit" class="btn btn2"> Submit</button>
+                    </form>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 Divy. <br> Made with <i class="fa-solid fa-heart"></i> by Divy Singhal.
+            </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("activelink")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("activetab")
+            }
+            event.currentTarget.classList.add("activelink")
+            document.getElementById(tabname).classList.add("activetab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <!-- <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form> -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxEMHIBbfUc0wmEarpbJd363F6g885E6Om2Y6YR2Us7Wk8SLSI0vDaErpCT8q5RRqLg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+</body>
+
+</html>
